@@ -23,3 +23,4 @@ script:
   - brew install cvc4 $FORMULA_VERSION --verbose
   - brew test cvc4
   - cvc4 --version
+  - ccache -s
